@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.each-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 5px;
+  width: 120px;
+  height: 130px;
+}
+@media (max-width: 767px) {
+  .each-app-container {
+    height: 100px;
+    width: 100px;
+  }
+}
+.app-name {
+  font-size: 15px;
+  font-family: Bree serif;
+  color: #1e293b;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .app-name {
+    font-size: 12px;
+  }
+}
+.app-image {
+  height: 60px;
+  width: 60px;
+  margin-top: 15px;
+}
+@media (max-width: 767px) {
+  .app-image {
+    height: 40px;
+    width: 40px;
+  }
+}

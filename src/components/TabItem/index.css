@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.tab-class {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: Roboto;
+  border-bottom: 2px solid #7b8794;
+  background-color: transparent;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+.active-tab-class {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: Roboto;
+  color: #2563eb;
+  border-bottom: 3px solid #2563eb;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  background-color: transparent;
+}

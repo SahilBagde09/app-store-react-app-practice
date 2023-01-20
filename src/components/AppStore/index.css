@@ -1,0 +1,75 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.bg-container {
+  background-image: linear-gradient(to bottom, #dfe2e5, #ace0f9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tabIItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+}
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+  list-style-type: none;
+  padding: 0px;
+}
+@media (max-width: 767px) {
+  .app-container {
+    width: 90%;
+  }
+}
+.input-search-bar {
+  width: 300px;
+  height: 30px;
+  font-family: Roboto;
+  color: #1e293b;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  outline: none;
+}
+@media (max-width: 767px) {
+  .input-search-bar {
+    width: 250px;
+  }
+}
+.search-icon {
+  width: 30px;
+  height: 30px;
+}
+.search-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #7b8794;
+  padding: 5px;
+}
+.main-heading {
+  font-family: Bree Serif;
+  font-size: 40px;
+  color: #1e293b;
+}
+@media (max-width: 767px) {
+  .main-heading {
+    font-size: 30px;
+  }
+}
